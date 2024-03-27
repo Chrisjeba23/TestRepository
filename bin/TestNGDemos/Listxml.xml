@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="test suite">
+	<listeners>
+		<listener class-name="TestNGDemos.ListenersClass">
+		</listener>
+	</listeners>
+	<test name="testcase">
+		<classes>
+			<class name="TestNGDemos.TestcaseforListenersexec">
+				<methods>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

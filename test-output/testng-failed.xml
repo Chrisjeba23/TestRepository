@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test suite]">
+  <listeners>
+    <listener class-name="TestNGDemos.ListenersClass"/>
+  </listeners>
+  <test thread-count="5" name="testcase(failed)">
+    <classes>
+      <class name="TestNGDemos.TestcaseforListenersexec">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="Testcase1"/>
+        </methods>
+      </class> <!-- TestNGDemos.TestcaseforListenersexec -->
+    </classes>
+  </test> <!-- testcase(failed) -->
+</suite> <!-- Failed suite [test suite] -->
